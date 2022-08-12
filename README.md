@@ -2,7 +2,7 @@
 
 
 <h3 align="center"> YOLOv7 overview</h3>
-\hspace{1cm}
+
 <p style= 'text-align: justify;'> YOLOv7 infers faster and with greater accuracy than its cohorts, pushing the state of the art in object detection to new heights.</p>
 
 
@@ -14,9 +14,9 @@
 
 <p style= 'text-align: justify;'> YOLO architecture is FCNN(Fully Connected Neural Network) based. However, Transformer based versions have recently been added to the YOLO family as well. We will discuss Transformer based detectors in a separate post. For now, let’s focus on FCNN (Fully Convolutional Neural Network) based YOLO object detectors also it has three main components. 
 
-                                                  *  Backbone
-                                                  * Head 
-                                                  * Neck
+* Backbone
+* Head 
+* Neck
 </p>
 
 
