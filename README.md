@@ -95,6 +95,54 @@ The YOLO network head makes the final predictions for the network, but since it 
 
 The auxiliary head does not train as efficiently as the final head because there is less network between it an the prediction - so the YOLOv7 authors experiment with different levels of supervision for this head, settling on a coarse-to-fine definition where supervision is passed back from the lead head at different granularities.
 
+<h2 align="center">How to run the YOLOv7 in windows?</h2>
+
+
+<p style= 'text-align: justify;'> 
+
+### 🚀 Installation
+
+1. clone with YOLOv7 repostery 
+
+```
+git clone https://github.com/WongKinYiu/yolov7.git
+
+```
+2. Create the new enviornment with python 3.9 to that, open the Anaconda promt and do the followng process 
+
+```
+conda create -n yolov7 python=3.9
+
+```
+3. Activate the conda enviornment 
+
+```
+conda activate yolov7
+
+```
+
+4. Install the conda cuda
+
+```
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+
+```
+
+5. Change the path to where you store the YOLOv7 model (while cloning the YOLOv7 github)
+
+```
+cd path
+```
+
+6. Run the detect.py 
+
+```
+python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg
+
+```
+
+</p>
+
 
 
 
