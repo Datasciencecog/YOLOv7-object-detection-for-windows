@@ -25,12 +25,15 @@
 <h2 align="center">Significance of YOLOv7</h2>
 
 <p style= 'text-align: justify;'> The following major changes have been introduced in the YOLOv7 paper. We will go through them one by one.
+  
 1. Architectural Reforms
   * E-ELAN (Extended Efficient Layer Aggregation Network)
   * Model Scaling for Concatenation based Models 
 2. Trainable BoF (Bag of Freebies)
   * Planned re-parameterized convolution
   * Coarse for auxiliary and Fine for lead loss
+  
+</p>
 
 
 
