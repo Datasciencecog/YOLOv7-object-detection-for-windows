@@ -19,5 +19,8 @@
 * Neck
 </p>
 
+<p style= 'text-align: justify;'> The Backbone mainly extracts essential features of an image and feeds them to the Head through Neck. The Neck collects feature maps extracted by the Backbone and creates feature pyramids. Finally, the head consists of output layers that have final detections. The following table shows the architectures of YOLOv4, YOLOv4, and YOLOv5. </p>
+
+
 
 
