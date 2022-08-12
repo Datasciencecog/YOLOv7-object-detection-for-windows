@@ -72,6 +72,28 @@ Typically, object detection models consider the depth of the network, the width 
 </p>
 
 
+<h2 align="center">Re-parameterization Planning</h2>
+
+<p align="center">
+  <img width="700" src="https://user-images.githubusercontent.com/111018114/184388086-0bbd64a1-8539-4699-9a00-8ff54d799cd3.png">
+</p> 
+
+<p style= 'text-align: justify;'>  Re-parameterization techniques involve averaging a set of model weights to create a model that is more robust to general patterns that it is trying to model. In research, there has been a recent focus on module level re-parameterization where piece of the network have their own re-parameterization strategies. The YOLOv7 authors use gradient flow propagation paths to see which modules in the network should use re-parameterization strategies and which should not.
+
+</p>
+
+
+<h2 align="center">Auxiliary Head Coarse-to-Fine</h2>
+
+<p align="center">
+  <img width="700" src="https://user-images.githubusercontent.com/111018114/184388615-b94c0630-19a9-4a7a-80ad-0a838fcaedfb.png">
+</p> 
+
+The YOLO network head makes the final predictions for the network, but since it is so far downstream in the network, it can be advantageous to add an auxiliary head to the network that lies somewhere in the middle. While you are training, you are supervising this detection head as well as the head that is actually going to make predictions.
+
+The auxiliary head does not train as efficiently as the final head because there is less network between it an the prediction - so the YOLOv7 authors experiment with different levels of supervision for this head, settling on a coarse-to-fine definition where supervision is passed back from the lead head at different granularities.
+
+
 
 
 
