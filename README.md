@@ -37,6 +37,10 @@
 
 <h2 align="center">Extended Efficient Layer Aggregation</h2>
 
+<p align="center">
+  <img width="500" src="https://user-images.githubusercontent.com/111018114/184383416-d5eec9c7-ac70-4c69-816b-8b4d2cfc2bf2.png">
+</p> 
+
 <p style= 'text-align: justify;'> The efficiency of the YOLO networks convolutional layers in the backbone is essential to efficient inference speed. WongKinYiu started down the path of maximal layer efficiency with Cross Stage Partial Networks.
 
 In YOLOv7, the authors build on research that has happened on this topic keeping in mind the amount of memory it takes to keep layers in memory along with the distance that it takes a gradient to back-propagate through the layers - the shorter the gradient, the more powerfully their network will be able to learn. The final layer aggregation they choose is E-ELAN, an extend version of the ELAN computational block.
