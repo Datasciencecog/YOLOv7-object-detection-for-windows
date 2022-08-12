@@ -2,7 +2,7 @@
 
 
 <h3 align="center"> YOLOv7 overview</h3>
-
+<h4 align="left">The YOLOv7 paper can be found [here](https://doi.org/10.48550/arXiv.2207.02696)</h4>
 <p style= 'text-align: justify;'> Yolov7 is a real-time object detector currently revolutionizing the computer vision industry with its incredible features. The official YOLOv7 provides unbelievable speed and accuracy compared to its previous versions. Yolov7 weights are trained using Microsoft’s COCO dataset, and no pre-trained weights are used.</p>
 
 
