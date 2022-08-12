@@ -2,6 +2,7 @@
 
 
 <h3 align="center"> YOLOv7 overview</h3>
+\hspace{1cm}
 <p style= 'text-align: justify;'> YOLOv7 infers faster and with greater accuracy than its cohorts, pushing the state of the art in object detection to new heights.</p>
 
 
