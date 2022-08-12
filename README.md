@@ -56,6 +56,10 @@ The proposed E-ELAN uses expand, shuffle, merge cardinality to achieve the abili
 
 <h2 align="center">Compound Model Scaling Techniques</h2>
 
+<p align="center">
+  <img width="700" src="https://user-images.githubusercontent.com/111018114/184385696-4fe6a6e7-c3d3-40db-b851-2aedbd54a95b.png">
+</p> 
+
 
 <p style= 'text-align: justify;'> Object detection models are typically released in a series of models, scaling up and down in size, because different applications require different levels of accuracy and inference speeds. While scaling a model size, the following parameters are considered.
   
