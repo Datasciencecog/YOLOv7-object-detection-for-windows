@@ -156,7 +156,7 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inferen
 git clone https://github.com/WongKinYiu/yolov7.git
 
 ```
-2. Install the conda cuda
+2. Install the cuda
 
 ```
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
@@ -181,7 +181,7 @@ python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inferen
 python detect.py --weights yolov7.pt --conf 0.25 --img-size 640 --source inference/images/horses.jpg --class 0,1,1,3
 ```
 
-6.How to rund more than one images at a time
+6. How to rund more than one images at a time
 
 ```
 touch detect.sh
