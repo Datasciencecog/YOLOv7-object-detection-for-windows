@@ -4,8 +4,8 @@
 <h3 align="left">comparison of YOLOv7 weiht detection and YOLOv7-tiny weight detection </h3>
 
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/111018114/184507638-e95c42d2-70db-4718-93de-5520933950b8.gif">
-  <img width="450" src="https://user-images.githubusercontent.com/111018114/184507880-77504482-c4aa-4e52-b748-9070afc5f02c.gif">
+  <img width="400" src="https://user-images.githubusercontent.com/111018114/184507638-e95c42d2-70db-4718-93de-5520933950b8.gif">
+  <img width="400" src="https://user-images.githubusercontent.com/111018114/184507880-77504482-c4aa-4e52-b748-9070afc5f02c.gif">
  
 </p> 
 
@@ -13,8 +13,8 @@
 
 
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/111018114/184507538-bb3d2341-fbfa-4c24-bbce-ffc7442d4c2f.jpg">
-  <img width="450" src="https://user-images.githubusercontent.com/111018114/184507543-d620c4eb-d846-4cfd-847e-c20a7a1c87c2.jpg">
+  <img width="400" src="https://user-images.githubusercontent.com/111018114/184507538-bb3d2341-fbfa-4c24-bbce-ffc7442d4c2f.jpg">
+  <img width="400" src="https://user-images.githubusercontent.com/111018114/184507543-d620c4eb-d846-4cfd-847e-c20a7a1c87c2.jpg">
 </p> 
 
 <h3 align="left">comparison of YOLOv7 weiht detection and YOLOv7-tiny weight detection </h3>
