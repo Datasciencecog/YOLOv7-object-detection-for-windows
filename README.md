@@ -20,8 +20,8 @@
 <h3 align="left">comparison of YOLOv7 weiht detection and YOLOv7-tiny weight detection </h3>
 
 <p align="center">
-  <img width="450" src="https://user-images.githubusercontent.com/111018114/184508008-6ce5c704-d4cc-4a99-96a6-269ead05960f.gif">
-  <img width="450" src="https://user-images.githubusercontent.com/111018114/184508045-c71f3276-718c-429b-92e9-a1121805f58a.gif">
+  <img width="400" src="https://user-images.githubusercontent.com/111018114/184508008-6ce5c704-d4cc-4a99-96a6-269ead05960f.gif">
+  <img width="400" src="https://user-images.githubusercontent.com/111018114/184508045-c71f3276-718c-429b-92e9-a1121805f58a.gif">
  
 </p> 
 
